@@ -1,0 +1,71 @@
+.fundo {
+    width: 100%;
+    height: 100vh;
+    background-image: url()https://www.google.com/imgres?imgurl=https%3A%2F%2Fcolorindo.org%2Fwp-content%2Fuploads%2F2023%2F04%2FVetores-Cafeteria.webp&tbnid=v3f5_BvYtOzovM&vet=12ahUKEwiZ8v3B6uOAAxXKpZUCHW9XA-EQMygLegQIARBj..i&imgrefurl=https%3A%2F%2Fcolorindo.org%2Fcafeteria%2F&docid=6_kgt-HwdChflM&w=1024&h=1024&q=cafeteria%20desenho&ved=2ahUKEwiZ8v3B6uOAAxXKpZUCHW9XA-EQMygLegQIARBj;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .container {
+    width: 65%;
+    height: 90%;
+    background-color: bisque;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .title {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: Georgia, "Times New Roman", Times, serif;
+  }
+  
+  .data {
+    font-family: Georgia, "Times New Roman", Times, serif;
+  }
+  
+  .line {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    background-color: rgb(120, 4, 4);
+    height: 3px;
+    width: 80%;
+  }
+  
+  .sub-title {
+    font-size: 18px;
+    font-weight: bold;
+    font-family: Georgia, "Times New Roman", Times, serif;
+  }
+  
+  .photo {
+    height: 20px;
+    width: 20px;
+    background-color: grey;
+  }
+  
+  .image {
+    width: 100%;
+  }
+  
+  .products {
+    margin-top: 25px;
+    margin-bottom: 15px;
+    width: 80%;
+    font-size: 14px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .product {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  
